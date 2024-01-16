@@ -107,6 +107,7 @@
         </div>
         
     </div>
+
     <style>
         .ofertas{
             padding-bottom: 7px;
@@ -123,10 +124,11 @@
             justify-content: space-between;
         }
         .container_ofertas .option{
+            padding-top: 10px;
         }
         
         .container_ofertas .option img{
-            border-radius: 10px;
+                border-radius: 10px;
             width: 19rem;
             height: 8rem;
         }
@@ -136,17 +138,171 @@
         <p>Ofertas</p>
         <div class="container_ofertas">
             <div class="option">
-                <img src="./view/image/ofertas/exclusivas.png" alt="">
+                <a href="">
+                    <img src="./view/image/ofertas/exclusivas.png" alt="">
+                </a>
             </div>
             <div class="option">
-                <img src="./view/image/ofertas/saldavel.png" alt="">
+                <a href="">
+                    <img src="./view/image/ofertas/saldavel.png" alt="">
+                </a>
             </div>
             <div class="option">
-                <img src="./view/image/ofertas/exclusivas.png" alt="">
+                <a href="">
+                    <img src="./view/image/ofertas/exclusivas.png" alt="">
+                </a>
             </div>
             <div class="option">
-                <img src="./view/image/ofertas/saldavel.png" alt="">
+                <a href="">
+                    <img src="./view/image/ofertas/saldavel.png" alt="">
+                </a>
             </div>
+        </div>
+    </div>
+
+    <style>
+        .classificados{
+            display: flex;
+            justify-content: space-around;
+        }
+        .item_classificados{
+            padding: 0 1rem;
+        }
+        .topo_classificados{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .container_produto_classificados{
+            background: #66fe00;
+            display: flex;
+            align-items: center;
+        
+        }
+
+        .imagem_produto_classificados{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 25.74px;
+        }
+        .imagem_produto_classificados img{
+            width: 7rem;
+            height: 8rem;
+        }
+    </style>
+    <div class="classificados">
+        <div class="item_classificados">
+            <div class="topo_classificados">
+                <p>Mais Procurados</p>
+                <a href="">Ver Mais ></a>
+            </div>
+            <div class="container_produto_classificados">
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="item_classificados">
+            <div class="topo_classificados">
+                <p>Mais Procurados</p>
+                <a href="">Ver Mais ></a>
+            </div>
+            <div class="container_produto_classificados">
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="item_classificados">
+            <div class="topo_classificados">
+                <p>Mais Procurados</p>
+                <a href="">Ver Mais ></a>
+            </div>
+            <div class="container_produto_classificados">
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+                <div class="produto_classificados">
+                    <div class="imagem_produto_classificados">
+                        <i></i>
+                        <img src="" alt="">
+                    </div>
+                    <p>descrição</p>
+                </div>
+            </div>
+            
         </div>
     </div>
 </section>
