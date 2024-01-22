@@ -1,7 +1,7 @@
 
 The MIT License (MIT)
 
-Copyright (c) 2024 PAULO FERNANDO FERREIRA PIRES & ANDREAS
+Copyright (c) 2024 PAULO FERNANDO FERREIRA PIRES & ANDREAS & ALEXANDRE
 
 ///EN
 Permission is hereby granted, free of charge, to any person obtaining a copy of
